@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id = "tab"></title>
+    <link rel="stylesheet" href="games.css">
+    <script src="roll.js"></script>
+    <script src="../data.js"></script>
+    <script src="getter.js"></script>
+  </head>
+  <body>
+    <section>
+      <a href="../index.html">Home</a>><a href="../index.html#games">Games</a>><span id="name"></span>
+      <br>
+    </section>
+
+    <section class="A">
+      <div class="A1">
+        <div class="mediaroll">
+          <span id="mediaroll"></span>
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center" id="dots">
+
+        </div>
+
+        <div id = "download">
+          Download: <a>windows</a> | <a>OSX</a> | <a>Linux</a> <br>
+        </div>
+      </div>
+
+      <div class="A2">
+        <h1 id="title"></h1>
+        <p id="desc"></p>
+      </div>
+    </section>
+
+    <section class="B">
+      <h1>Creators</h1>
+
+      <div class="B2" id="creators"></div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+body
+{
+	margin-left: 10%;
+	margin-right: 0;
+	background-color: #1E1E1E;
+	font-family: "Trebuchet MS", sans-serif;
+	color: white;
+}
+
+body > div
+{
+	background-color: #828282;
+	margin-top: 0px;
+}
+
+h1,h2,h3,p {
+	margin: 0;
+}
+
+a:not(.nav)
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #DFDFDF;
+}
+
+.nav
+{
+	color: #828282;
+	text-decoration: none;
+	margin-bottom: 0;
+}
+
+.container
+{
+	display: flex;
+	justify-content: flex-start | space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 15px;
+	padding-top: 5px;
+}
+
+.person
+{
+	background-color: #606060;
+	margin-right: 15px;
+	margin-top: 10px;
+	padding: 5px;
+
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.person>img{
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+}
+
+.person p
+{
+	color: #aacbff;
+	font-weight: normal;
+}
+
+.person h3
+{
+	margin-bottom: 2px;
+}
+
+.person:hover
+{
+	border: 0;
+	border-left: 2px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	margin-left: -2px;
+	background-color: #939393;
+}
+
+.game
+{
+	background-color: #303030;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 15px;
+	margin-top: 10px;
+	text-align: center;
+	width: 100px;
+}
+
+.game:hover
+{
+	background-color: #202020
+}
+
+.game img
+{
+	width: 100px;
+	height: 100px;
+}
+
+.game p
+{
+	color: #bbbbbb;
+	font-size: 12px;
+}
+
+#header
+{
+	background-color: #EDEDED;
+	margin-top: 0;
+	padding: 15px;
+	padding-right: 10%;
+	padding-bottom: 0;
+	color: black;
+
+	display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#header img {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+}
+
+#header>div{
+	flex:1;
+	min-width: 200px;
+	margin-bottom: 15px;
+}
+
+#header h1 {
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+
+#middle {
+	color: black;
+	margin-top: 15px;
+	padding: 15px;
+	padding-right: 10%;
+	padding-bottom: 0;
+}
+
+#bottom
+{
+	color: white;
+	background-color: #494949;
+	margin-top: 15px;
+	padding: 15px;
+	padding-right: 10%;
+	padding-bottom: 0;
+}
