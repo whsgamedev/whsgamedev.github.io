@@ -1,0 +1,170 @@
+<html>
+  <head>
+	 <meta charset="utf-8">
+  	<link rel="stylesheet" href="index.css">
+  	<script src="hide.js"></script>
+	  <script src="SearchBar.js"></script>
+    <script src="data.js"></script>
+    <script src="get.js"></script>
+    <title>WHS Video Game Development</title>
+	</head>
+	<body>
+ 	<div class="page_head">
+     <h1>WHS Video Game Development</h1>
+     <p>
+       We aim to expand our members' skillset in all aspects related to <br>game development, from leadership all the way to artwork.
+     </p>
+ 	</div>
+ 	<form>
+	     <input type="text"id="search_bar"   placeholder="Search..."oninput="search()"autocomplete="off"/>
+	</form>
+
+	<div id="content_nav">
+
+	    <ul id="profiles">
+  			<li>
+            <h2 id="gamestitle" style="padding-top: 15px;">
+              <a id = "b">Games
+                <div class="hiddentext" style ="display: none;">T1</div>
+              </a>
+            </h2>
+  			</li>
+  		  <div class="unhide" id="ghide" onclick="toggle('games', this)">
+    			<img src="downarrow.png" width="12px" height="18px">
+    		</div>
+
+        <div id="games" class="container">
+    			<li>
+            <div class="game">
+              <a href="games/game.html?m=colorstorm">
+                <img src = "../">
+                <br>Color Storm
+                <p>desc</p>
+                <div class="hiddentext" style ="display: none;">games</div>
+              </a>
+            </div>
+     			</li>
+          <li>
+            <div class="game">
+              <a href="games/game.html?m=colorstorm">
+                <img src = "../">
+                <br>Color Storm
+                <p>desc</p>
+                <div class="hiddentext" style ="display: none;">games</div>
+              </a>
+            </div>
+     			</li>
+        </div>
+      	<script type="text/javascript">
+      		fold("games");
+      	</script>
+
+  			<li>
+  			  <hr>
+          <h2 id="teamstitle" style="padding-top: 15px;">
+            <a id = "b">Groups
+              <div class="hiddentext" style ="display: none;">T2</div>
+            </a>
+          </h2>
+  			</li>
+
+  		  <div class="unhide" id="thide" onclick="toggle('teams', this)">
+      	   <img src="downarrow.png" width="12px" height="18px">
+      	</div>
+
+        <div id="teams" class="container">
+     			<li>
+            <a href="../groups/group.html?m=" class="team">
+              <img src="../">
+              <div>
+                <h3>Freelancers</h3>
+                <p id="extra">Members:3</p>
+              </div>
+              <div class="hiddentext" style="display: none;">groups</div>
+            </a>
+    			</li>
+          <li>
+            <a href="../groups/group.html?m=" class="team">
+              <img src="../">
+              <div>
+                <h3>Freelancers</h3>
+                <p id="extra">Members:3</p>
+              </div>
+              <div class="hiddentext" style="display: none;">groups</div>
+            </a>
+    			</li>
+          <li>
+            <a href="../groups/group.html?m=" class="team">
+              <img src="../">
+              <div>
+                <h3>Freelancers</h3>
+                <p id="extra">Members:3</p>
+              </div>
+              <div class="hiddentext" style="display: none;">groups</div>
+            </a>
+    			</li>
+   			</div>
+
+  		  <script type="text/javascript">
+      		fold("teams");
+      	</script>
+
+   			<li>
+   			  <hr>
+
+  				<h2 id="peopletitle" style="padding-top: 15px;">
+            <a id = "b">Members
+    				      <div class="hiddentext" style ="display: none;">T3</div>
+    				</a>
+          </h2>
+   			</li>
+
+  			<div class="unhide" id="phide" onclick="toggle('teams', this)">
+  				<img src="downarrow.png" width="12px" height="18px">
+  			</div>
+
+   			<div id="people" class="container">
+     			<li>
+            <a href="" class="person">
+              <img src=""></img>
+              <div>
+                <h3>Allie Amerman</h3>
+                <p>Code</p>
+              </div>
+              <div class="hiddentext" style="display: none;">members</div>
+            </a>
+     			</li>
+          <li>
+            <a href="" class="person">
+              <img src=""></img>
+              <div>
+                <h3>Allie Amerman</h3>
+                <p>Code</p>
+              </div>
+              <div class="hiddentext" style="display: none;">members</div>
+            </a>
+     			</li>
+          <li>
+            <a href="" class="person">
+              <img src=""></img>
+              <div>
+                <h3>Allie Amerman</h3>
+                <p>Code</p>
+              </div>
+              <div class="hiddentext" style="display: none;">members</div>
+            </a>
+     			</li>
+  		   </div>
+      	  <script type="text/javascript">
+      			fold("people");
+      		</script>
+
+ 			</ul>
+		</div>
+
+   	<div id="footer">
+       <h2>About Us:</h2><p>Founded in 2017 by then sophomores Kevin Awoufack, Allie Amerman, and Tadiyos Berhane, the Game Development club is Wheaton High School's exciting leap into the world of video game design. We are a group of high school students who wanted to code in a fun and interesting way, mixing an enthusiasm for design with a childhood passion of video games. Each month, we host a game competition called a game jam, where we encourage students to create video games around that month's theme. Outside of game jams, we also teach the basics of game dev and computer programing to interested members, strongly encouraged for those seeking to develop new skills.</p>
+       <p>Contact us at wheatonhighschoolgmc@gmail.com</p>
+  	</div>
+  </body>
+</html>
