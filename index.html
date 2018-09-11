@@ -30,7 +30,7 @@
             </h2>
   			</li>
   		  <div class="unhide" id="ghide" onclick="toggle('games', this)">
-    			<img src="downarrow.png" width="12px" height="18px">
+    			<img src="media/downarrow.png" width="12px" height="18px">
     		</div>
 
         <div id="games" class="container">
@@ -56,7 +56,7 @@
      			</li>
         </div>
       	<script type="text/javascript">
-      		fold("games");
+      		fold("games", data.games);
       	</script>
 
   			<li>
@@ -69,7 +69,7 @@
   			</li>
 
   		  <div class="unhide" id="thide" onclick="toggle('teams', this)">
-      	   <img src="downarrow.png" width="12px" height="18px">
+      	   <img src="media/downarrow.png" width="12px" height="18px">
       	</div>
 
         <div id="teams" class="container">
@@ -106,7 +106,7 @@
    			</div>
 
   		  <script type="text/javascript">
-      		fold("teams");
+      		fold("teams", data.groups);
       	</script>
 
    			<li>
@@ -119,8 +119,8 @@
           </h2>
    			</li>
 
-  			<div class="unhide" id="phide" onclick="toggle('teams', this)">
-  				<img src="downarrow.png" width="12px" height="18px">
+  			<div class="unhide" id="phide" onclick="toggle('people', this)">
+  				<img src="media/downarrow.png" width="12px" height="18px">
   			</div>
 
    			<div id="people" class="container">
@@ -156,7 +156,7 @@
      			</li>
   		   </div>
       	  <script type="text/javascript">
-      			fold("people");
+      			fold("people", data.members);
       		</script>
 
  			</ul>
