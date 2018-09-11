@@ -1,4 +1,3 @@
-
 function runoff() {
 
   var gamesadd = "";
@@ -16,6 +15,7 @@ function runoff() {
   }
 
   document.getElementById("games").innerHTML = gamesadd;
+  fold("games", data.games);
 
   var groupsadd = "";
 
@@ -37,6 +37,7 @@ function runoff() {
   }
 
   document.getElementById("teams").innerHTML = groupsadd;
+  fold("teams", data.groups);
 
   var membersadd = "";
 
@@ -61,6 +62,7 @@ function runoff() {
   }
 
   document.getElementById("people").innerHTML = membersadd;
+  fold("people", data.members);
 
 }
 
