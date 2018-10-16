@@ -28,7 +28,7 @@ var data = {
       "name" : "Allie Amerman",
       "desc" : "Senior at Wheaton High School graduating in Spring of 2019. Planning to double major in Computer Science and Materials Science. Interested in Artifical Intelligence and Molecular Simulation. Hobby writer and music composer.",
       "groups" : ["staff","team1","webdev"],
-      "games" : ["colorstorm", "thenightbefore", "therock","website"]
+      "games" : ["colorstorm", "thenightbefore", "therock","1984","website"]
     },
     "brianmbogo" : {
       "name" : "Brian Mbogo",
@@ -278,6 +278,20 @@ var data = {
         "brianmbogo" : "Code",
         "abrehamtemesgen" : "Code",
         "raventiu" : "Music"
+      }
+    },
+    "1984" : {
+      "name" : "1984",
+      "icon" : "media/1984icon.png",
+      "pictures" : ["media/1984-1.png"],
+      "videos" : [],
+      "shortdesc" : "text adventure",
+      "desc" : "Happy. Smile. Grin. Joyous. Content. Satisfied. Dutiful. Responsible. Comrade. Normal. <br>aka a really edgy game about a book",
+      "download" : {
+        "itch.io" : "https://vyroj.itch.io/1984"
+      },
+      "creators" : {
+        "allieamerman" : "Code and Art",
       }
     },
     "website" : {
