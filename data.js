@@ -75,7 +75,7 @@ var data = {
     "tadiyosberhane" : {
       "name" : "Tadiyos Berhane",
       "desc" : "Currently a senior at Wheaton high school; part of the graduating class of 2019. Majors that I am interested in possibly pursuing include: computer science, software engineering, machine learning & electrical engineering. Hobbies include playing video games (especially rocket league) and watching anime.",
-      "groups" : ["staff","team1"],
+      "groups" : ["staff","team1","webdev"],
       "games" : ["colorstorm", "thenightbefore", "therock"]
     }
   },
@@ -126,7 +126,8 @@ var data = {
       "currentmembers" : {
         "brianmbogo" : "HTML and CSS",
         "abrehamtemesgen" : "JS",
-        "allieamerman" : "HTML, CSS, and JS"
+        "allieamerman" : "HTML, CSS, and JS",
+        "tadiyosberhane" : "JS"
       },
       "games" : ["website"]
     },
@@ -307,7 +308,8 @@ var data = {
       "creators" : {
         "brianmbogo" : "HTML and CSS",
         "abrehamtemesgen" : "JS",
-        "allieamerman" : "HTML, CSS, and JS"
+        "allieamerman" : "HTML, CSS, and JS",
+        "tadiyosberhane" : "JS"
       }
     }
   }
