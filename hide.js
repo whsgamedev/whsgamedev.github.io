@@ -2,7 +2,7 @@ var MAX_VAL = 12;
 
 function fold(id, data)
 {
-	var bound = (id == "games" ? MAX_VAL-4 : (id == "people" ? MAX-VAL : MAX_VAL-6)); //max games:8 max people: 12 max groups: 6
+	var bound = (id == "people" ? MAX_VAL : MAX_VAL-4); //max people: 12 max others: 8
 	var datanum = Object.keys(data).length;
 	var container = document.getElementById(id);
 	var collection = container.children;
@@ -35,7 +35,7 @@ function fold(id, data)
 
 function toggle(id, sec)
 {
-	var bound = (id == "games" ? MAX_VAL-4 : (id == "people" ? MAX-VAL : MAX_VAL-6));
+	var bound = (id == "people" ? MAX_VAL : MAX_VAL-4);
 		
 	var container = document.getElementById(id);
 	var collection = container.children;
