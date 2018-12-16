@@ -1,6 +1,9 @@
+
 function runoff() {
 
   var gamesadd = "";
+
+  console.log(data.games);
 
   for ( var i in data.games) {
     gamesadd += "<li class=\"game\"><a href=\"games/game.html?m="+
@@ -15,7 +18,6 @@ function runoff() {
   }
 
   document.getElementById("games").innerHTML = gamesadd;
-  fold("games", data.games);
 
   var groupsadd = "";
 
@@ -37,7 +39,6 @@ function runoff() {
   }
 
   document.getElementById("teams").innerHTML = groupsadd;
-  fold("teams", data.groups);
 
   var membersadd = "";
 
@@ -54,15 +55,18 @@ function runoff() {
     membersadd += data.members[j].name;
     membersadd += "</h3><p>";
     for ( var i in data.members[j].groups) {
-      membersadd += data.groups[data.members[j].groups[0]].name + ": "+
-      data.groups[data.members[j].groups[0]].currentmembers[j];
+      membersadd += data.groups[data.members[j].groups[0]].name + ": ";
+      if (data.groups[data.members[j].groups[0]].currentmembers[j] != null) {
+        membersadd += data.groups[data.members[j].groups[0]].currentmembers[j];
+      } else {
+        membersadd += data.groups[data.members[j].groups[0]].pastmembers[j];
+      }
       break;
     }
     membersadd += "</p></div><div class=\"hiddentext\" style=\"display: none;\">members</div></a></li>";
   }
 
   document.getElementById("people").innerHTML = membersadd;
-  fold("people", data.members);
 
 }
 
