@@ -77,6 +77,12 @@ var data = {
       "desc" : "Currently a senior at Wheaton high school; part of the graduating class of 2019. Majors that I am interested in possibly pursuing include: computer science, software engineering, machine learning & electrical engineering. Hobbies include playing video games (especially rocket league) and watching anime.",
       "groups" : ["staff","team1","webdev"],
       "games" : ["colorstorm", "thenightbefore", "therock"]
+    },
+    "tsegazeab" : {
+      "name" : "Tsegazeab Beteselassie",
+      "desc" : "I'm a Sophmore in the graduating class of 2021. I'm mainly a programmer and game developer. I know several languages, including Java, C#, HTML, CSS, and Javascript (with a bit of Python).  I love reading! My favorite book series are Eragon and the Name of the Wind. My favorite video game is Crossout, with TF2 and CS:GO a close second. Favorite anime is currently OPM.",
+      "groups" : ["team3"],
+      "games" : ["dogfighter"]
     }
   },
 
@@ -153,8 +159,11 @@ var data = {
     },
     "team3" : {
       "name" : "Team 3",
-      "desc" : "A development team filled with diverse talents ranging from music production, programming, storytelling, and illustrations.",
+      "desc" : "Thirdhand.",
       "currentmembers" : {
+        "tsegazeab" : "Code"
+      },
+      "pastmembers" : {
         "gabriellepham" : "Code",
         "dzakyhasan" : "Music",
         "eddiedevoney" : "Art",
@@ -293,6 +302,20 @@ var data = {
       },
       "creators" : {
         "allieamerman" : "Code and Art",
+      }
+    },
+    "dogfighter" : {
+      "name" : "Dogfighter",
+      "icon" : "media/dogfightericon.jpg",
+      "pictures" : ["media/dogfighter1.png","media/dogfighter2.png"],
+      "videos" : [],
+      "shortdesc" : "3d endless shooter",
+      "desc" : "Welcome to the simulation. Play as a dogfighter trying to survive the onslaught of enemy missles. Survive, and maybe we'll let you go free.<br><br>We probably won't though.",
+      "download" : {
+        "itch.io" : "https://duocore.itch.io/dogfighter-3d"
+      },
+      "creators" : {
+        "tsegazeab" : "All"
       }
     },
     "website" : {
