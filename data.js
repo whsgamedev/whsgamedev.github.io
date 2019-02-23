@@ -96,8 +96,8 @@ var data = {
       "groups" : ["team2"],
       "games" : ["ourinvasion"]
     },
-    "riniackerman" : {
-      "name" : "Rini Ackerman",
+    "rinishakya" : {
+      "name" : "Rini Shakya",
       "desc" : "Forever alone.",
       "groups" : ["team3","team12"],
       "games" : ["sevensins"]
@@ -219,7 +219,7 @@ var data = {
         "gabriellepham" : "Code",
         "dzakyhasan" : "Music",
         "eddiedevoney" : "Art",
-        "riniackerman" : "Script"
+        "rinishakya" : "Script"
       },
       "games" : ["sevensins"]
     },
@@ -253,7 +253,7 @@ var data = {
       "currentmembers" : {
         "dzakyhasan" : "Music",
         "andrewquintana" : "Code",
-        "riniackerman" : "Something"
+        "rinishakya" : "Something"
       },
       "pastmembers" : {
       },
