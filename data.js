@@ -210,6 +210,7 @@ var data = {
       "name" : "Team 3",
       "desc" : "Thirdhand.",
       "currentmembers" : {
+        "tadiyosberhane" : "Code",
         "tsegazeab" : "Code",
         "yeabsira" : "Code",
         "dong" : "Art"
