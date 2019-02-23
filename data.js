@@ -1,6 +1,6 @@
 var data = {
 
-  "members" : {
+    "members" : {
     //  TEMPLATE (replace things between < and >)
     /*
     "<Name of person in all lowercase with no spaces (aka: johndoe, or some other unique identifier)>" : {
@@ -27,14 +27,38 @@ var data = {
     "allieamerman" : {
       "name" : "Allie Amerman",
       "desc" : "Senior at Wheaton High School graduating in Spring of 2019. Planning to double major in Computer Science and Materials Science. Interested in Artifical Intelligence and Molecular Simulation. Hobby writer and music composer.",
-      "groups" : ["staff","team1","webdev"],
+      "groups" : ["staff","team1","team4","webdev"],
       "games" : ["colorstorm", "thenightbefore", "therock","1984","website"]
+    },
+    "andrew" : {
+      "name" : "Andrew",
+      "desc" : "",
+      "groups" : [],
+      "games" : []
     },
     "brianmbogo" : {
       "name" : "Brian Mbogo",
       "desc" : "I was born in Uganda and immigrated here when i was 7. I became very interested in science when I was in 6th grade and that led me to programming. I've been teaching myself on and off since I was in 7th grade. Although I have no specific field of interest for programming, game development brings together many important principles which is why I joined this club.",
       "groups" : ["staff","team2","webdev"],
       "games" : ["leafpilot","ourinvasion","website"]
+    },
+    "callumvicary" : {
+      "name" : "Callum Vicary",
+      "desc": "",
+      "groups" : ["team8"],
+      "games" : []
+    },
+    "daviddo" : {
+      "name" : "David Do",
+      "desc" : "",
+      "groups" : ["team2"],
+      "games" : []
+    },
+    "dong" : {
+      "name" : "Dong Im",
+      "desc" : "",
+      "groups" : ["team3"],
+      "games" : []
     },
     "dzakyhasan" : {
       "name" : "Dzaky F. Hasan",
@@ -54,10 +78,16 @@ var data = {
       "groups" : ["team3"],
       "games" : ["sevensins"]
     },
+    "johnle" : {
+      "name" : "John Le",
+      "desc" : "",
+      "groups" : ["team8"],
+      "games" : []
+    },
     "kevinawoufack" : {
       "name" : "Kevin Awoufack",
       "desc" : "I'm a senior in Wheaton  HS's class of 2019. I plan to major in Computer Engineering or maybe double major with Business. I plan to enter the tech industry and hopefully create my own startup. Outside of STEM I enjoy reading, hanging out with friends, watching anime, and being monotone. Mostly the last thing.",
-      "groups" : ["staff","team1"],
+      "groups" : ["staff","team1","team8"],
       "games" : ["colorstorm", "thenightbefore", "therock"]
     },
     "raventiu" : {
@@ -72,10 +102,16 @@ var data = {
       "groups" : ["team3"],
       "games" : ["sevensins"]
     },
+    "rosalba" : { 
+      "name" : "Rosalba",
+      "desc" : "",
+      "groups" : ["team4"],
+      "games" : []
+    },
     "tadiyosberhane" : {
       "name" : "Tadiyos Berhane",
       "desc" : "Currently a senior at Wheaton high school; part of the graduating class of 2019. Majors that I am interested in possibly pursuing include: computer science, software engineering, machine learning & electrical engineering. Hobbies include playing video games (especially rocket league) and watching anime.",
-      "groups" : ["staff","team1","webdev"],
+      "groups" : ["staff","team1","team3","webdev"],
       "games" : ["colorstorm", "thenightbefore", "therock"]
     },
     "tsegazeab" : {
@@ -83,6 +119,18 @@ var data = {
       "desc" : "I'm a Sophmore in the graduating class of 2021. I'm mainly a programmer and game developer. I know several languages, including Java, C#, HTML, CSS, and Javascript (with a bit of Python).  I love reading! My favorite book series are Eragon and the Name of the Wind. My favorite video game is Crossout, with TF2 and CS:GO a close second. Favorite anime is currently OPM.",
       "groups" : ["team3"],
       "games" : ["dogfighter"]
+    },
+    "yeabsira" : {
+      "name" : "Yeabsira Moges",
+      "desc" : "",
+      "groups" : ["team3"],
+      "games" : []
+    },
+    "yoshi" : {
+      "name" : "Josiah Altschuler",
+      "desc" : "",
+      "groups" : ["team4"],
+      "games" : []
     }
   },
 
@@ -153,7 +201,8 @@ var data = {
       "currentmembers" : {
         "brianmbogo" : "Code",
         "abrehamtemesgen" : "Code",
-        "raventiu" : "Music"
+        "raventiu" : "Music",
+        "daviddo" : "Art"
       },
       "games" : ["leafpilot","ourinvasion"]
     },
@@ -161,7 +210,9 @@ var data = {
       "name" : "Team 3",
       "desc" : "Thirdhand.",
       "currentmembers" : {
-        "tsegazeab" : "Code"
+        "tsegazeab" : "Code",
+        "yeabsira" : "Code",
+        "dong" : "Art"
       },
       "pastmembers" : {
         "gabriellepham" : "Code",
@@ -170,6 +221,30 @@ var data = {
         "riniackerman" : "Script"
       },
       "games" : ["sevensins"]
+    },
+    "team4" : {
+      "name" : "Team 4",
+      "desc" : "The other hand.",
+      "currentmembers" : {
+        "allieamerman" : "Code",
+        "rosalba" : "Art",
+        "yoshi" : "Music"
+      },
+      "pastmembers" : {
+      },
+      "games" : []
+    },
+    "team8" : {
+      "name" : "Team 8",
+      "desc" : "Here on pension.",
+      "currentmembers" : {
+        "kevinawoufack" : "Code",
+        "johnle" : "Code",
+        "callumvicary" : "Code"
+      },
+      "pastmembers" : {
+      },
+      "games" : []
     }
   },
 
