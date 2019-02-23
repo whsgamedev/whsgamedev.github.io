@@ -30,10 +30,10 @@ var data = {
       "groups" : ["staff","team1","team4","webdev"],
       "games" : ["colorstorm", "thenightbefore", "therock","1984","website"]
     },
-    "andrew" : {
-      "name" : "Andrew",
+    "andrewquintana" : {
+      "name" : "Andrew Quintana",
       "desc" : "",
-      "groups" : [],
+      "groups" : ["team 12"],
       "games" : []
     },
     "brianmbogo" : {
@@ -63,7 +63,7 @@ var data = {
     "dzakyhasan" : {
       "name" : "Dzaky F. Hasan",
       "desc" : "Graduating year: Spring 2019 <br>Interests: Sound Design, Biomedical Engineering, Music Technology, Child Care and Development",
-      "groups" : ["team3"],
+      "groups" : ["team3","team12"],
       "games" : ["sevensins","colorstorm"]
     },
     "eddiedevoney" : {
@@ -99,7 +99,7 @@ var data = {
     "riniackerman" : {
       "name" : "Rini Ackerman",
       "desc" : "Forever alone.",
-      "groups" : ["team3"],
+      "groups" : ["team3","team12"],
       "games" : ["sevensins"]
     },
     "rosalba" : { 
@@ -242,6 +242,18 @@ var data = {
         "kevinawoufack" : "Code",
         "johnle" : "Code",
         "callumvicary" : "Code"
+      },
+      "pastmembers" : {
+      },
+      "games" : []
+    },
+    "team12" : {
+      "name" : "Team 12",
+      "desc" : "???",
+      "currentmembers" : {
+        "dzakyhasan" : "Music",
+        "andrewquintana" : "Code",
+        "riniackerman" : "Something"
       },
       "pastmembers" : {
       },
